@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to right, rgb(107, 13, 107), rgb(183, 49, 49));
+}
+
+.container {
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .stopwatch h3 {
+    padding: 25px;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.time p {
+    font-size: 6rem;
+}
+
+.stopwatch {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    padding: 25px;
+    display: flex;
+    justify-content:space-around;
+}
